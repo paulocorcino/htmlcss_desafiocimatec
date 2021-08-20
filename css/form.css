@@ -1,0 +1,54 @@
+.fordform {
+    display: block;
+    width: 300px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    height: 26px;
+    margin: 8px;
+    font-size: 13px;
+    padding: 5px;
+}
+
+select.fordform {
+    width: 310px;
+    height: 36px;
+    color: #807d7d;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+select:focus-visible {
+    outline: none;
+}
+
+main div {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+.forms {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+main {
+    height: 75%;
+}
+
+h2 {
+    text-align: left;
+    font-weight: 800;
+}
+
+button {
+    background: #1351d8;
+    color: #fff;
+    border: 0px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+}

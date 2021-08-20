@@ -7,6 +7,7 @@
     <title>Ford</title>    
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
 </head>
 <body>
     <header>       
@@ -29,17 +30,26 @@
 
     </header>
     <main>
-        <div>
-            <img style = "display: block; margin-left: auto; margin-right: auto;" src="img/imagem_1.jpg" />
-        </div>
-        <div>
-            <p style="
-            display: block;
-            text-align: center;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            font-weight: bold;
-        ">Esta é a nova Ranger Ford 2022. Verifique novidades <a href="lancamento.html">aqui</a>.</p>
+        <div class="forms">
+            <div>
+                <img src="img/xls 2.2 diesel.jpg">
+            </div>
+            <div>
+                <h2>Sobre Você</h2>
+            <form>
+                <input type="text" name="nome" placeholder="NOME*" class="fordform">
+                <input type="text" name="email" placeholder="E-MAIL*" class="fordform">
+                <input type="text" name="cpf" placeholder="CPF*" class="fordform">
+                <input type="text" name="sobrenome" placeholder="SOBRENOME*" class="fordform">
+                <input type="text" name="telefone" placeholder="TELEFONE*" class="fordform">
+                <select name="contato" class="fordform">
+                    <option selected>COMO DESEJA SER CONTATADO</option>
+                    <option>Telefone</option>
+                    <option>E-mail</option>
+                </select>
+            <button type="submit">Enviar</button>
+            </form>
+            </div>
         </div>
     </main>
     <footer>
